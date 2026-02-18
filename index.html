@@ -17,9 +17,9 @@
       }
     </style>
   <!-- 
-    NOTE: Changed type="importmap" to type="application/json". 
-    This keeps the code in the file as requested, but prevents the browser from executing it,
-    fixing the White Screen error caused by version conflicts.
+    NOTE: The importmap is intentionally disabled (type="application/json") to prevent 
+    conflicts between the CDN React versions and the local package.json React versions.
+    This fixes the "White Screen" error on Vercel.
   -->
   <script type="application/json" id="disabled-importmap">
 {
@@ -47,7 +47,6 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
 </head>
   <body class="bg-slate-50 dark:bg-slate-950 transition-colors duration-200">
     <div id="root"></div>
