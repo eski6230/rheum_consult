@@ -1,0 +1,5 @@
+{
+  "name": "RheumConsult AI",
+  "description": "An intelligent assistant for Internal Medicine residents and Rheumatology fellows to rapidly assess joint pain consults, generate differential diagnoses, and draft professional consult notes.",
+  "requestFramePermissions": []
+}
